@@ -80,7 +80,7 @@ const onDownload = async () => {
           {{ t("global.download") }}
         </UButton>
       </div>
-      <div class="text-sm text-gray-500 mt-4 md:mt-0 mx-2 shrink-0" v-html="t('models.discover')"></div>
+<!--      <div class="text-sm text-gray-500 mt-4 md:mt-0 mx-2 shrink-0" v-html="t('models.discover')"></div>-->
     </div>
     <ul class="flex flex-col gap-2 mt-4 px-3.5 py-2.5 bg-gray-100" v-if="progresses.length > 0">
       <li v-for="(progress, index) in progresses" :key="index">
